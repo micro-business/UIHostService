@@ -29,6 +29,8 @@ func main() {
 
 	if rootDirectoryPath, err := consulConfigurationReader.GetRootDirectory(); err != nil {
 		log.Fatal(err.Error())
+
+		return
 	} else {
 		http.Handle("/", http.FileServer(http.Dir(rootDirectoryPath)))
 	}
