@@ -1,4 +1,4 @@
 FROM ubuntu:latest
-MAINTAINER microbusinesses.inc@gmail.com
+MMAINTAINER micro.business.limited@gmail.com
 ADD UIHostService /
 CMD ["/UIHostService"]

@@ -7,8 +7,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/microbusinesses/Micro-Businesses-Core/common/diagnostics"
-	"github.com/microbusinesses/UIHostService/config"
+	"github.com/micro-business/Micro-Business-Core/common/diagnostics"
+	"github.com/micro-business/UIHostService/config"
 )
 
 var consulAddress string
